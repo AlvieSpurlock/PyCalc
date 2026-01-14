@@ -21,7 +21,7 @@ def multi(start, *args): # 2
 def div(start, *args): # 3
     result = start
     for num in args:
-        result += num
+        result /= num
     return result
 
 def IsEven(var): # 4
@@ -48,4 +48,4 @@ def debug():
     for num, result in enumerate(results):
         print(num + 1, ":", result)
 
-debug()
+# debug()
